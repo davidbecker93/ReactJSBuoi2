@@ -13,13 +13,19 @@ export default class BaiTapGlasses extends Component {
         })
     }
 
-
-
     render() {
         return (
-            <div>
-                <Content />
-
+            <div className='bg-glass'>
+                <div className="bg-overlay">
+                    <Content data={data} />
+                    <div className="container">
+                        <div className="mt-4 bg-item p-5">
+                            <div className="row">
+                                {this.renderGlass()}
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         )
     }
