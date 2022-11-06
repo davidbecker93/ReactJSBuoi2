@@ -33,3 +33,38 @@ header {
 .bg-item {
     background-color: white;
 }
+
+#model {
+    position: relative;
+}
+
+.glasses {
+    position: absolute;
+    z-index: 10;
+    top: 25%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 28%;
+    opacity: 0.8;
+}
+
+.Info {
+    position: absolute;
+    z-index: 10;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 300px;
+    height: 110px;
+    text-align: left;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+}
+
+/* .Info h3 {
+    font-size: 2rem;
+}
+
+.Info p {
+    font-size: 1.4rem;
+} */
